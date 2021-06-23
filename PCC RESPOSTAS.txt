@@ -1,0 +1,12 @@
+atividade 02
+pcc lucelia
+
+01
+R: 	reuso de software passou a ser uma abordagem dominante de
+desenvolvimento
+	 sistemas são desenvolvidos e entregues de forma incremental,
+com atualizações no servidor
+
+02
+R: KISS (Keep it Simple, Stupid!) MANTER QUALQUER TRABALHO SIMPLES PARA QUE QUALQUER PESSOA ENTENDER, ADMINISTRAR, SEILA
+

@@ -1,0 +1,271 @@
+body{
+    margin:10px 15px;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+p{
+    text-align: center;
+    color: #333;
+    font-size: 140%;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;  
+    color:#2308b7; 
+    font-size:120%;
+    text-decoration: underline; 
+    background:#ccc;
+}
+#tudo {
+    width:100%;
+    text-align:left;
+    margin:0 auto;
+}
+#topo {	
+    height:150px;
+    background-color:#ffffff;
+}
+#imagemTopo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#principal {
+    width:75%;
+    min-height: 300px;
+    float:right;
+}
+#navegacao {
+    padding-top: 50px;
+    width:23%;
+    min-height: 300px;
+    float:left;
+    border-color: #b5daa2;
+    font-size: 120%;
+
+}
+#principal *{
+    padding: 0 10px;
+    text-align: center;
+}
+ .menu ul{
+              list-style-type:none;
+                            
+              }
+
+       .menu ul a{
+              float: left;
+              }
+       .menu ul a{
+               font-family:fantasy;
+               color: #ffffff;
+               font-size: 20px;
+               text-decoration: none;
+               display: block;
+               padding: 15px 95px ;
+               background-color: #006699;
+               margin-left: 20%;
+              
+               }
+
+        .menu ul a:hover {
+               background-color: #0099cc;
+               opacity: 0,8;
+               padding-left: 12;
+               padding-right:  12%;
+               
+               }
+
+        .menu ul :first-child a{
+               padding-left: 18%;
+               border-top-left-radius: 5px;
+               border-bottom-left-radius: 5px;
+              }
+
+
+         .menu ul :last-child a {
+               padding-right: 22%;
+               border-top-right-radius: 5px;
+               border-bottom-right-radius: 5px;
+               }
+               
+#navegacao * {
+    padding: 0 8px;;
+
+}
+#rodape {	
+    clear:both;
+    height:80px;
+}
+.alpha{
+    font-style: italic;
+    font-size: 100%;
+    font-weight: bold;
+}
+.beta{
+    font-size: 120%;
+    font-weight: bold;
+}
+#formLogin{
+    margin-top: 20px;
+    text-align: center;
+}
+#formFuncionario{
+    text-justify: auto;
+
+}
+#formProduto{
+    margin-top: 20px;
+    text-align: center;
+}
+#fundo{
+   
+    position:relative;
+    left:7%;
+    width:500px;
+    height:400px;
+}
+.area{
+    position:relative;
+    left:7%;
+    width:500px;
+    height:400px;
+   
+}
+.area #formulario{
+    position:absolute;
+    display:block;  
+} 
+.area input{
+    text-align: center;
+    position: center;
+}
+fieldset{
+    background-color:#ccc;
+    width:500px;
+    height:330px;
+}
+legend{
+    font-weight:bold;
+    font-size: 140%;
+}
+#formFuncionario label{
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+}
+#formFuncionario input.nome{
+    position:absolute;
+    left:95px;
+    margin-top:1px;
+    width:150px;    
+}
+#formFuncionario input.email{
+    position:absolute;
+    left:95px;
+    margin-top:1px;
+    width:150px;    
+}
+#formFuncionario input.cpf{
+    position:absolute;
+    left:95px;
+    margin-top:1px;
+    width:100px;    
+}
+#formFuncionario input.senha{
+    position:absolute;
+    left:95px;
+    margin-top:1px;
+    width:100px;    
+}
+#formFuncionario input.dataAdmissao{
+    position:absolute;
+    left:135px;
+    margin-top:1px;
+    width:140px;    
+}
+#formFuncionario input.cargo{
+    position:absolute;
+    left:95px;
+    margin-top:1px;
+    width:100px;    
+}
+#formFuncionario input.salario{
+    position:absolute;
+    left:95px;
+    margin-top:1px;
+    width:100px;    
+}
+#formFuncionario input.perfil{
+    position:absolute;
+    left:95px;
+    margin-top:1px;
+    width:50px;    
+}
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    color: darkblue;
+    align-items:center;
+}
+.coluna_id{
+    width: 5%;    
+}
+.coluna_nome{
+    width: 25%; 
+}
+.coluna_cargo{
+    width: 10%;
+}
+.coluna_perfil{
+    width: 10%;
+}
+.coluna_email{
+    width: 20%;
+}
+.coluna_salario{
+    width: 9%;
+    text-align: right;
+}
+.coluna_alterar{
+    width: 10%;
+    text-align: center;
+}
+input#nome{
+    min-width: 35%;
+}
+input#email{
+    min-width: 25%;
+}
+input#senha{
+    min-width: 25%;
+}
+.btn{
+    background-color: #E5E5E5;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+.btn-inserir{
+    background-color: green;
+    color: wiwidth;
+    width: 100px;
+}
+.btn-excluir{
+    background-color: red;
+    color: white;
+}
+.btn-normal{
+    background-color: blue;
+    color: white;
+}
+.slides{
+    height:border-box; 
+    width :border-box;
+}

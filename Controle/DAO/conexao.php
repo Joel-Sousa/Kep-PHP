@@ -1,0 +1,15 @@
+<?php
+
+abstract class conexao {
+    function __construct() {        
+    }
+    public static function getInstance() {
+        try {
+            $pdo = new PDO("mysql:host=localhost; dbname=pccc", "root", "");
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            return $pdo;
+        } catch (PDOException $exc) {
+            echo $exc->getMessage();
+        }
+    }
+}
